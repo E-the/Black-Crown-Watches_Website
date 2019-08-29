@@ -3,7 +3,7 @@
 
 # What I learned
 
- * [ ] 
- * [ ] 
- * [ ] 
- * [ ] 
+ * [x] Responsive design (Bootstrap)
+ * [x] Animate.css + wow.js 
+ * [x] Footer with links (social, email)
+ * [x] Greenshock for navbar 
