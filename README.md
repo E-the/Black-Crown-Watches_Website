@@ -1,4 +1,4 @@
-# Black Crown - dark e-commerce webshop selling watches
+# Black Crown - dark e-commerce selling watches
 #### This is a responsive online shop website with simple animations.
 
 ### :rocket: [DEMO]()
