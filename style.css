@@ -276,6 +276,7 @@ img {
 
   .shipping {
     margin-left: 20px;
+    margin-top: 30px;
   }
 
   #mobileHero {
@@ -291,6 +292,10 @@ img {
 
   .media ul {
     margin-right: 0;
+  }
+
+  .shop {
+    margin-top: 30px;
   }
 }
 
