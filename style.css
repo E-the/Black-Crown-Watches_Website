@@ -259,7 +259,6 @@ img {
 
 @media (max-width: 900px) {
   .hero-image {
-    display: none;
   }
 
   .media {
@@ -354,6 +353,7 @@ img {
 
   .prod-img {
     margin-right: 20px;
+    min-height: 100px;
   }
 
   .shop {
