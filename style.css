@@ -235,6 +235,10 @@ a {
   transform: translate(-50%, -50%);
 }
 
+#mobileHero {
+  display: none;
+}
+
 img {
   width: 100%;
 }
@@ -259,6 +263,24 @@ img {
 
 @media (max-width: 900px) {
   .hero-image {
+    display: none;
+  }
+
+  .hero-section {
+    height: 60vh;
+  }
+
+  .hero-left {
+    height: 60vh;
+  }
+
+  .shipping {
+    margin-left: 20px;
+  }
+
+  #mobileHero {
+    display: block;
+    height: 500px;
   }
 
   .media {
@@ -353,7 +375,7 @@ img {
 
   .prod-img {
     margin-right: 20px;
-    min-height: 100px;
+    min-height: 130px;
   }
 
   .shop {
