@@ -223,7 +223,7 @@ a {
   position: absolute;
   bottom: 30px;
   margin-left: 40px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color: silver;
 }
@@ -275,8 +275,8 @@ img {
   }
 
   .shipping {
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-left: 40px;
+    padding-top: 30px;
   }
 
   #mobileHero {
@@ -323,7 +323,7 @@ img {
 
 #prod-desc {
   margin-top: 16px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 390;
   color: rgb(216, 216, 216);
 }
@@ -365,6 +365,7 @@ img {
 
 .prod-name {
   color: silver;
+  font-size: 16px;
 }
 
 .prod-name:hover {
@@ -380,7 +381,7 @@ img {
 
   .prod-img {
     margin-right: 20px;
-    min-height: 130px;
+    min-height: 160px;
   }
 
   .shop {
@@ -452,6 +453,10 @@ footer li:hover {
   text-decoration: none;
 }
 
+#brand {
+  font-size: 13px !important;
+}
+
 /* SHOP Page */
 
 .whitespaces {
@@ -517,9 +522,9 @@ footer li:hover {
 }
 
 @media (max-width: 900px) {
-  .product-sec {
-    margin-bottom: 140px;
-    border-bottom: none !important;
+  .prod-sec {
+    padding-bottom: 160px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.1);
   }
 
   .prod-img-1 {
@@ -600,14 +605,14 @@ input[type='checkbox']:checked + label:before {
 .product-sec ::placeholder,
 input {
   font-family: 'Fenix', serif;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 4px;
   padding-left: 10px;
   padding-bottom: 3px;
-  background: silver;
-  color: #000;
+  background: rgba(0, 0, 14, 0.212);
+  color: whitesmoke;
 }
 
 .product-sec input {
@@ -740,12 +745,12 @@ form label,
 textarea {
   font-family: 'Fenix', serif;
   font-size: 12px;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .form-control {
   box-shadow: none !important;
+  text-transform: capitalize;
 }
 
 form input,
@@ -757,4 +762,15 @@ form input:focus,
 textarea:focus {
   outline: none !important;
   border: 1px solid rgba(224, 224, 224, 0.1);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type='number'] {
+  -moz-appearance: textfield; /* Firefox */
 }
