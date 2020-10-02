@@ -12,3 +12,4 @@
  * [x] https://ionicons.com/ for icons
  * [ ] Make 'Stores' Page
  * [ ] Would be nice to pull prods. from API
+ * [ ] Fix inscription button and text
