@@ -10,3 +10,4 @@
  * [x] Footer with links (social, email), scroll down arrow
  * [x] Greenshock for navbar 
  * [x] https://ionicons.com/ for icons
+ * [ ] Make 'Stores' Page
