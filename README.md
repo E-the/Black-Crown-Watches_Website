@@ -13,3 +13,4 @@
  * [ ] Make 'Stores' Page
  * [ ] Would be nice to pull prods. from API
  * [ ] Fix inscription button and text
+ * [ ] Dynamic prod. page
