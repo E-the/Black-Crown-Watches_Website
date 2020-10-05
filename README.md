@@ -1,4 +1,4 @@
-# Black Crown - dark themed ecommerce website(Watch Store)
+# Black Crown - dark themed ecommerce website
 #### This is a responsive online shop with simple animations.
 
 ### :rocket: [DEMO](https://blackcrownwatches.netlify.com/)
